@@ -1,0 +1,11 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: frontendBNP
+  sleuth:
+    sampler:
+      probability: 1.0
+  zipkin:
+#    baseUrl: http://ZIPKEN_SERVER_IP:9411
+    baseUrl: http://localhost:9411
